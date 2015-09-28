@@ -1,0 +1,7 @@
+file(GLOB subdir_files "*/*.c")
+foreach(file ${subdir_files})
+  get_filename_component(basename ${file} NAME_WE)
+  set(target_name 20XX_${basename})
+  add_executable(${target_name} ${file})
+  add_test(test.${target_name} ${target_name})
+endforeach()
