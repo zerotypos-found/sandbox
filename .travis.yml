@@ -1,0 +1,17 @@
+language: c
+
+os:
+  - linux
+  - osx
+
+compiler:
+  - clang
+  - gcc
+
+script:
+  - $CC --version
+  - $CXX --version
+  - echo $CC
+  - echo $CXX
+  - cc --version
+  - c++ --version
