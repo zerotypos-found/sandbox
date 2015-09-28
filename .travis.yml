@@ -9,9 +9,4 @@ compiler:
   - gcc
 
 script:
-  - $CC --version
-  - $CXX --version
-  - echo $CC
-  - echo $CXX
-  - cc --version
-  - c++ --version
+  - mkdir build && cd build && cmake .. && make && ctest -VV
