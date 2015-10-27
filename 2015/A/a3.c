@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main(void){
-pu	ts("A3");
+puts("A3");
 return(0);
 }		

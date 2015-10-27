@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(void)
 {	
-		pu	ts("A4");
+		puts("A4");
 		return(0);
 	
 }
