@@ -2,5 +2,5 @@
 int main(void)
 {
 put("A2");
-return 0
+return 0;
 }
