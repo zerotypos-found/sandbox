@@ -3,7 +3,7 @@
 int main(void)
 {
 
-printf("w")
+printf("w");
 
 return 0;
 }
