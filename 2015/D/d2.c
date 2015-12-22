@@ -1,6 +1,6 @@
 int main(void)
 {
-printf("I love you.¥n")
+printf("I love you.¥n");
 
 
 
