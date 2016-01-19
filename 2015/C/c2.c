@@ -5,4 +5,4 @@ int main(void)
  printf("x:");
  // scanf("%d",&x);
  return 0;
- } 
+ }
